@@ -1,0 +1,281 @@
+.centrarContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html{
+    box-sizing: border-box;
+    
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.custom-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-style: italic;
+  margin-right: 40px; /* Espaciado entre botones */
+  cursor: pointer;
+}
+.custom-btn:hover {
+  text-decoration: none; /* Quitar subrayado al pasar el cursor */
+}
+
+
+    main{
+        padding: 1rem;
+        flex: 1;
+        background-image: url('../src/Fondo.jpeg');
+        background-size: cover; /* Hace que la imagen cubra todo el fondo */
+        background-position: center; /* Centra la imagen en el fondo */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-attachment: fixed;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: #DBD5DE;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+        box-sizing: border-box;
+      }
+      
+      .aviso {
+        flex: 1;
+        text-align: left; /* Alínea el aviso a la izquierda */
+      }
+      
+      .Icons {
+        display: flex;
+        justify-content: center;
+        flex: 1; /* Ocupa el espacio central */
+      }
+      
+      .Icons svg {
+        margin: 0 10px; /* Ajusta el espacio entre los iconos */
+      }
+      
+      .mini-card {
+        text-align: center;
+        background-color: #f8f9fa;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+      
+      .mini-card img {
+        width: 50px;
+        height: 50px;
+      }
+      
+      .card-body {
+        padding: 10px;
+      }
+      
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: #4D074F;
+        border-radius: 50%;
+      }
+      
+      .container-lol{
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+      }
+
+      .container-custom {
+        background-color: #ffffff00;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .map-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .form-container {
+        padding: 10px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .info-container {
+      background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+
+    .container-services{
+      justify-content: space-between;
+      align-items: center;
+      width: 1200px; /* Asegura que ocupe todo el ancho del contenedor */
+      
+    }
+
+    .container-perso{
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 30px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-placeholder {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+  }
+
+  /* Div GRANDE */
+
+          /* Main container */
+          .GRANDE-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 1160px;
+            height: 863px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        /* Main heading */
+        .main-heading {
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        /* Button */
+        .main-button {
+            background-color: #6B2C76;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 25px;
+            padding: 10px 30px;
+            border: none;
+            margin-bottom: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .main-button:hover {
+            background-color: #531f5a;
+        }
+
+        /* Text */
+        .text-label {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Dropdown buttons */
+        .dropdown-button {
+            background-color: #6B2C76;
+            color: #fff;
+            border-radius: 25px;
+            padding: 10px 20px;
+            border: none;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-button:hover {
+            background-color: #531f5a;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .main-container {
+                width: 90%;
+                height: auto;
+            }
+            .main-heading {
+                font-size: 32px;
+            }
+            .main-button, .dropdown-button {
+                font-size: 16px;
+                padding: 8px 20px;
+            }
+        }
+
+
+
+    /* Dropdown container */
+            /* Custom styles for the dropdown */
+            .dropdown-menu {
+              background-color: #E7DFE7; /* Color similar a la imagen */
+              border-radius: 8px;
+              padding: 10px;
+              min-width: 200px;
+          }
+  
+          .dropdown-item {
+              color: #333;
+              font-size: 16px;
+          }
+  
+          .dropdown-item:hover {
+              background-color: #4D074F;
+              color: #fff;
+          }
+  
+          .dropdown-toggle::after {
+              display: none;
+          }
+  
+          .gear-icon {
+              width: 20px;
+              height: 20px;
+              color: white;
+          }
+  
+          .dropdown-button {
+              background-color: #4D074F;
+              border-radius: 8px;
+              padding: 10px;
+          }
+  
+          /* Responsive adjustments */
+          @media (max-width: 768px) {
+              .dropdown-menu {
+                  min-width: 150px;
+              }
+          }
